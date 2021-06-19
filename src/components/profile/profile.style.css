@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    background: #444444;
+}
+.MainPro {
+    width: 375px;
+    background: #6847ab;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.Skills ul li {
+    display: inline-block;
+    background: #444;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.Links ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #444;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.Links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.Bio h3 {
+    font-size: 32px;
+}
+.Bio p {
+    font-size: 22px;
+    font-weight: 500;
+}
+.Skills h3 {
+    text-transform: uppercase;
+}
+.Links h3 {
+    text-transform: uppercase;
+}

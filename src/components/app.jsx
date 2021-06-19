@@ -1,8 +1,23 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Profile from './profile';
+import Bio from './profile/bio';
+import Skills from './profile/skills';
+import Links from './profile/links';
 
 class App extends Component {
     render() {
-        return <h1> Hello, Welcome to my profile! I'm a professional front-end developer with more than 1 year of proven experience in Web Development. I can create beautiful designs into usable websites that respond to various device and user friendly. I have done a lot of local web developing projects, those are shown in my portfolio listed below.I have great experience in JavaScript, React, HTML5, CSS3, Bootstrap , Jquery as my tools. I can build website front-ends focusing on performance, responsiveness/mobile-friendliness, usability and accessibility.I look forward to gather new experience and develop my skills.</h1>
+        return (
+            <div className='App'>
+                <div className='Container'>
+                    <Profile />
+                    <div className='MainPro'>
+                        <Bio name='Rana Haider' title='Backend Developer' />
+                        <Skills skillA='Python' skillB='Django' skillC='Ruby' />
+                        <Links linkA='Insta' linkB='Twitter' linkC='Whatsup' />
+                    </div>
+                </div>
+            </div>
+        );
     }
 }
 export default App;
