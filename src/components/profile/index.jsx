@@ -8,9 +8,9 @@ class Profile extends React.Component {
     me = {
         name: 'Samiul Ahmed',
         title: 'Frontend developer',
-        skillA: 'java',
+        skillA: 'react',
         skillB: 'javasript',
-        skillC: 'Aro',
+        skillC: 'bootstrap',
         linkA: 'facebook',
         linkB: 'twitter',
         linkC: 'github'
